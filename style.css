@@ -161,3 +161,54 @@ nav ul li a:hover::after{
 .contact-left p{
     margin-top: 20px ;
 }
+.links a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-top: 10px;
+    padding: 10px;
+    /* background-color: #ff004f; */
+}
+.btn:hover {
+    color: #ff004f;
+}
+
+.contact-right form{
+    width: 100%;
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.contact-right button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #ff004f;
+    border-radius: 10px;
+    border: 2px solid #ff004f;
+    color: white;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    background: #262626;
+    padding: 15px;
+    /* font-weight: 300; */
+
+}
